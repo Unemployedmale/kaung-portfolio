@@ -15,7 +15,6 @@ type ProjectCardProps = {
 };
 
 const basePath =
-  process.env.NODE_ENV === "production" &&
   process.env.NEXT_PUBLIC_GITHUB_PAGES === "true"
     ? "/kaung-portfolio"
     : "";

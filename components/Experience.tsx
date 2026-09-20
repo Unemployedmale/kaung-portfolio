@@ -4,7 +4,7 @@ const experiences = [
     role: "Co-Founder",
     period: "Nov 2024 - Present",
     description:
-      "Building and growing Calli Coffee, working across brand, product direction, customer validation and go-to-market. We're also exploring how the business can grow beyond coffee into a broader wellness-focused brand.",
+      "Working on product direction, customer validation, branding and figuring out how to grow the business.",
     tags: ["Startup", "Product", "Go-to-market"],
   },
   {
@@ -12,7 +12,7 @@ const experiences = [
     role: "Finance Analyst / Product Management Intern",
     period: "Jun 2024 - Dec 2024",
     description:
-      "Worked across finance, data and product projects, from SQL-heavy reporting and P&L checks to internal workflow improvements and PRD work with different teams.",
+      "Worked across finance, data and product. Mostly reporting, P&L checks, SQL analysis, PRDs and internal workflow improvements.",
     tags: ["Finance", "SQL", "Product"],
   },
   {
@@ -20,7 +20,7 @@ const experiences = [
     role: "Management Intern",
     period: "Feb 2024 - May 2024",
     description:
-      "Worked on a mix of operations, sales and product-related projects, including lead generation, market research, CRM improvements and internal workflow optimisation.",
+      "Helped with market research, lead generation, CRM work and general operations.",
     tags: ["Operations", "Sales", "Research"],
   },
 ];
@@ -35,7 +35,7 @@ export default function Experience() {
           </p>
 
           <h2 className="mt-4 text-4xl font-medium tracking-tight text-white sm:text-5xl">
-            Places I&apos;ve worked.
+            What I&apos;ve worked on.
           </h2>
         </div>
 

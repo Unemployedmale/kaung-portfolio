@@ -11,13 +11,12 @@ export default function SelectedWork() {
             </p>
 
             <h2 className="text-4xl font-medium tracking-tight text-white sm:text-5xl">
-              Things I&apos;ve built.
+              Stuff I&apos;ve built.
             </h2>
           </div>
 
           <p className="hidden max-w-sm text-right text-sm leading-6 text-zinc-500 md:block">
-            A mix of finance, automation and analytics projects I&apos;ve worked
-            on.
+            A few projects I actually use, care about, or learned a lot from.
           </p>
         </div>
 
@@ -25,8 +24,8 @@ export default function SelectedWork() {
           number="01"
           category="FinTech · Python · Streamlit"
           title="FinPilot"
-          description="Takes messy transaction files, standardises them, flags things worth checking, and puts them into a simple review workflow."
-          status="V1 · Working locally"
+          description="Cleans transaction files, flags exceptions and gives reviewers a simple place to work through them."
+          status="Local build"
           images={[
             {
               src: "/projects/finpilot/04-exception-dashboard.png",
@@ -47,8 +46,8 @@ export default function SelectedWork() {
           number="02"
           category="AI Automation · n8n · FastAPI"
           title="Mon Personal Assistant"
-          description="A Telegram bot I built to manage my Google Calendar, send me useful reminders and briefs, and handle scheduling through normal conversation."
-          status="Live · Hostinger VPS"
+          description="A Telegram bot I use to manage my calendar, schedule events and get reminders without opening Google Calendar."
+          status="Live"
           images={[
             {
               src: "/projects/mon-personal-assistant/01-telegram-create-event.png",
@@ -69,7 +68,7 @@ export default function SelectedWork() {
           number="03"
           category="Financial Analytics · Python"
           title="Portfolio Optimization"
-          description="My final-year project looking at returns, volatility and portfolio allocation using models like ARIMA and GARCH."
+          description="My final-year project on return forecasting, volatility and portfolio allocation using Python."
           status="Final Year Project"
           images={[
             {

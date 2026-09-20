@@ -37,12 +37,12 @@ export default function Contact() {
             </p>
 
             <h2 className="mt-4 max-w-xl text-4xl font-medium tracking-tight text-white sm:text-6xl">
-              Say hi, talk products, or send me something interesting.
+              Want to chat?
             </h2>
 
             <p className="mt-6 max-w-lg text-base leading-7 text-zinc-500">
-              If you&apos;re hiring or just want to chat about product, fintech,
-              analytics or automation, feel free to reach out.
+              If you&apos;re hiring, working on something interesting, or just
+              want to say hi, reach out.
             </p>
           </div>
 

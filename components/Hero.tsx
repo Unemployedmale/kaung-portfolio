@@ -1,6 +1,8 @@
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden bg-[#0b0d10] px-6 pt-24"> 
+    <section className="relative flex min-h-screen items-center overflow-hidden bg-[#0b0d10] px-6 pt-24">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_10%,rgba(59,130,246,0.12),transparent_35%)]" />
+
       <div className="relative mx-auto w-full max-w-6xl">
         <div className="max-w-4xl">
           <p className="mb-6 text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">
@@ -8,14 +10,12 @@ export default function Hero() {
           </p>
 
           <h1 className="text-5xl font-semibold tracking-[-0.04em] text-white sm:text-6xl lg:text-8xl">
-            Building practical products at the intersection of finance,
-            data and automation.
+            I build things that make work easier.
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-            I&apos;m Kaung Mon Khant, a Business Analytics undergraduate
-            working across financial analytics, product thinking and
-            intelligent automation.
+            I&apos;m Kaung Mon Khant, a Business Analytics student interested
+            in fintech, product and automation.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -43,7 +43,7 @@ export default function Hero() {
 
           <div>
             <p className="text-xl font-medium text-white">Product</p>
-            <p className="mt-1 text-sm text-zinc-500">Problem → solution</p>
+            <p className="mt-1 text-sm text-zinc-500">Problem solving</p>
           </div>
 
           <div>
